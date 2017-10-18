@@ -1,0 +1,55 @@
+<?php
+require_once('../Classes/mail/PHPMailerAutoload.php');
+include("EnviarEmail.php");
+
+$form = '
+
+<div class="col-lg-6 col-md-6 col-sm-6 formulario">
+    <form id="formContato" method="get">
+        <div class="container-fluid">
+            <div class="form-group">
+                <input class="form-control campo" type="text" placeholder="Nome" id="nome" name="nome" required="required"/>
+            </div>
+
+            <div class="form-group">
+                <input class="form-control campo" type="email" placeholder="example@email.com" id="email" name="email" required="required"/>
+            </div>
+
+            <div class="form-group">
+                <textarea class="form-control campo" rows="11" type="text" placeholder="Mensagem" id="mensagem" name="mensagem" required></textarea>
+            </div>
+
+            <div id="envio" class="form-group">
+                <input id="botao" class="btn btn-default" type="submit" text="Enviar" name="enviar" value="Enviar"/>
+            </div>
+        </div>
+    </form>
+</div>';
+
+$mensagem ="<body>
+                <div style='display: block; position:absolute; background-color: #f8f8f8; width: 500px;  min-height: 600px; height: auto; border: 5px solid #1b6d85; border-bottom: 25px solid #1b6d85; border-top: 25px solid #1b6d85;background-color: #fff; padding: 20px;'>
+                    
+                    <div style='display: block; position: relative; float: left; width: 500px; height: 65px; left: 8px; top: 15px;'>
+                        <img src='cid:maisconectt' style='width: 224px; height: 45px;'/>
+                    </div>
+                    <br/>
+                    <hr style='margin-top: 20px;'>
+                    <div style='display: block; position: absolute; font-size: 14pt; top: 50px; text-align: left;'>
+                        <br/><br/>Olá,<b>  ".$_GET['nome']."</b><br/>".
+    "</div>
+
+                    <div style='display: block; position: relative; width: 480px; font-size: 14pt;  top: 140px; padding: 3px; height: 300px; overflow-y: auto; text-align: justify'>
+                        ".$_GET['mensagem']."
+                    </div></br>
+                    <hr>
+                    <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
+                        <a href='http://www.maisconectt.com.br'>clique aqui para ser redirecionado ao site</a>  
+                    </div>
+                </div>
+            </body>";
+
+
+echo $form;
+
+$result = sendMail('Site MaisConectt', $mensagem,  $_GET['email'], $_GET['nome'], NULL, NULL, NULL, '../Images/logoEmail.png');
+?>
