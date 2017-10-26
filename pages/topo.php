@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Pecta</title>
-        <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="theme-color" content="#103A61">
@@ -60,31 +60,22 @@
                 <div class="header-row">
                     <div class="header-column">
                         <div class="header-row">
-                            <nav class="header-nav-top">
-                                <ul class="header-social-icons social-icons hidden-xs">
-                                    <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                    <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                    <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="header-row">
                             <div class="header-nav">
                                 <div class="header-column logo">
                                     <div class="header-logo">
-                                        <a href="index.html">
-                                            <img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="img/logo.png">
+                                        <a href="/pecta">
+                                            <img id="imagem" alt="Porto" src="images/logo.png">
                                         </a>
                                     </div>
                                 </div>
                                 <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
                                     <i class="fa fa-bars"></i>
                                 </button>
-                                <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+                                <div id="menu" class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
                                     <nav>
                                         <ul class="nav nav-pills" id="mainNav">
                                             <li class="active">
-                                                <a class="" href="index.html">
+                                                <a class="" href="/pecta">
                                                     Home
                                                 </a>
                                             </li>
@@ -121,7 +112,7 @@
                                                 </ul>
                                             </li>
                                             <li class="">
-                                                <a class="" href="index.html">
+                                                <a class="" href="contato">
                                                     Contato
                                                 </a>
                                             </li>

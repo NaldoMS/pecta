@@ -48,7 +48,7 @@ li {
 	transition: min-height 0.3s ease;
 	width: 100%;
 	z-index: 1001;
-	min-height: 125px;
+	min-height: 115px;
 }
 
 #header .container {
@@ -454,7 +454,7 @@ html:not(.sticky-header-active) #header.header-transparent-sticky-deactive .head
 @media (min-width: 992px) {
 	#header .header-nav-main {
 		float: right;
-		margin: 12px 0 0;
+		margin: 25px 0 0;
 		min-height: 45px;
 	}
 
@@ -3095,6 +3095,11 @@ html.dark .text-muted {
 
 #footer .container .row > div {
 	margin-bottom: 25px;
+}
+
+#footer .container .row > div.direitos{
+	margin-bottom: 0px;
+	margin-top: 10px;
 }
 
 #footer .container input:focus {
