@@ -80,7 +80,7 @@
                                                 </a>
                                             </li>
                                             <li class="">
-                                                <a href="demos.html">
+                                                <a href="sobre">
                                                     Sobre nós
                                                 </a>
                                             </li>

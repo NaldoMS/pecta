@@ -6,7 +6,7 @@
             <div class="footer-ribbon">
                 <span>Entrar em contato</span>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <div class="newsletter">
                     <h4>Newsletter</h4>
                     <p>Acompanhe nossos cursos preparatórios sempre em evolução. Insira o seu e-mail e subscreva a nossa newsletter.</p>
@@ -27,11 +27,11 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="contact-details">
                     <h4>Contato</h4>
                     <ul class="contact">
-                        <li><p><i class="fa fa-map-marker"></i><strong>Endereço:</strong><a href="/contato">Av Washington Soares 909 - Loja 97 - Shopping Salinas - Edson Queiroz, Fortaleza - CE, 60811-341</a></p></li>
+                        <!--<li><p><i class="fa fa-map-marker"></i><strong>Endereço:</strong><a href="/contato">Av Washington Soares 909 - Loja 97 - Shopping Salinas - Edson Queiroz, Fortaleza - CE, 60811-341</a></p></li>-->
                         <li><p><i class="fa fa-phone"></i> <strong>Telefone:</strong><a target="_blank" href="https://web.whatsapp.com/"> +55 85 98848-2528</a></p></li>
                         <li><p><i class="fa fa-envelope"></i> <strong>E-mail:</strong> <a href="mailto:contato@pecta.com.br">contato@pecta.com.br</a></p></li>
                     </ul>

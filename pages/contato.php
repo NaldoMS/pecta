@@ -9,11 +9,11 @@
         </div>
     </section>
 
-    <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+    <!-- Google Maps - Go to the bottom of the page to change settings and map location.
     <div id="googlemaps" class="google-map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.2186556293864!2d-38.48302118582445!3d-3.7625290972626804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c746036daa41b3%3A0x28f6373538ae7d3b!2sIvia!5e0!3m2!1sen!2sbr!4v1490399014883" frameborder="0" style="border:0; width: 100%; height: 100%" allowfullscreen=""></iframe>
     </div>
-
+-->
     <div class="container">
 
         <div class="row">
@@ -70,8 +70,6 @@
                 <h4 class="heading-primary mt-lg">Entre em <strong>Contato</strong></h4>
                 <p>Entre em contato conosco para esclarecer dúvidas, relatar reclamações ou dar sugestões!</p>
                 <ul class="list list-icons list-icons-style-3 mt-xlg">
-                    <li><i class="fa fa-map-marker"></i> <strong>Endereço:</strong> <a target="_blank" href="https://www.google.com/maps?ll=-3.762528,-38.480864&z=16&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=2951607307511692603">Av Washington Soares 909 - Loja 97 - Shopping Salinas - Edson Queiroz, Fortaleza - CE, 60811-341</a></li>
-                    <li><i class="fa fa-phone"></i> <strong>Telefone:</strong> <a target="_blank" href="https://web.whatsapp.com/">+55 85 98848-2528</a></li>
                     <li><i class="fa fa-envelope"></i> <strong>E-mail:</strong> <a href="mailto:contato@pecta.com.br">contato@pecta.com.br</a></li>
                 </ul>
 
